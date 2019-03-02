@@ -6,17 +6,103 @@
   box-sizing: border-box;
   text-align: center;
   }
+  @media screen and (max-width: 700px) {
+    body {
+        background-color: hsl(351, 87%, 94%)182, 239);
+    }
 
-body {
+    .wrapper: 500px;
+    
   }
 
+  
 h1 {
+    margin: 0;
+    margin-bottom: 20px;
+    text-align: left;
     float:left;
     color: #eee;
-    background: teal;
+    background: pink;
   }
 
-.About {
-  float: right;
-  background: teal;
+  h2{
+     background: grey;
+     text-align: center;
   }
+
+selector:pseudo-class {
+    property:value;
+}
+
+#About:hover{
+    display: block;
+    background-color: hot;
+}
+
+#About:active {
+    display: block;
+    background-color: grey
+}
+#About {
+  position: absolute;
+  background: pink;
+  color: #eee;
+  text-align: center;
+  top:0;
+  right: 0;
+  }
+
+  #Portfolio:hover{
+    display: block;
+    background-color: hot;
+}
+
+#Portfolio:active {
+    display: block;
+    background-color: grey
+}
+
+#Portfolio {
+   position: absolute;
+   background: pink;
+   color: #eee;
+   top: 0;
+   right: 225px;
+  }
+
+  #Contact:hover{
+    display: block;
+    background-color: hot;
+}
+
+#Contact:active {
+    display: block;
+    background-color: grey
+}
+  #Contact {
+      position: absolute;
+      top: 0;
+      background: pink;
+      color: #eee;
+      right: 115px;
+  }
+ 
+  p {
+      font-size: 10pt;
+      padding: 0;
+      margin: 0;
+      border: 3px solid pink;
+      position: absolute;
+      right: 250px;
+      width: 700px;
+      height: 300px;  
+  }
+
+  img {
+      width: 230px;
+      height: 300px;
+      position: absolute;
+      left: 40px;
+  }
+
+   
