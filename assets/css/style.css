@@ -20,9 +20,10 @@ h1 {
     margin: 0;
     margin-bottom: 20px;
     text-align: left;
-    float:left;
-    color: #eee;
-    background: pink;
+    Text-align: center;
+    color: pink;
+    background: white;
+    font-family: Great Vibes;
   }
 
   h2{
@@ -50,6 +51,7 @@ selector:pseudo-class {
   text-align: center;
   top:0;
   right: 0;
+  font-family: Poiret One;
   }
 
   #Portfolio:hover{
@@ -68,6 +70,7 @@ selector:pseudo-class {
    color: #eee;
    top: 0;
    right: 225px;
+   font-family: Poiret One;
   }
 
   #Contact:hover{
@@ -85,6 +88,7 @@ selector:pseudo-class {
       background: pink;
       color: #eee;
       right: 115px;
+      font-family: Poiret One;
   }
  
   p {
@@ -96,13 +100,15 @@ selector:pseudo-class {
       right: 250px;
       width: 700px;
       height: 300px;  
+      font-family: Poiret One;
+      background-color: whitesmoke
   }
 
   img {
       width: 230px;
       height: 300px;
-      position: absolute;
       left: 40px;
+      position: static;
   }
 
    
