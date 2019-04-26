@@ -54,7 +54,7 @@ selector:pseudo-class {
   font-family: Poiret One;
   }
 
-  #Portfolio:hover{
+#Portfolio:hover{
     display: block;
     background-color: hot;
 }
@@ -104,11 +104,11 @@ selector:pseudo-class {
       background-color: whitesmoke
   }
 
-  img {
+  #me {
       width: 230px;
-      height: 300px;
-      left: 40px;
-      position: static;
+      height: 400px;
+      left: 80px;
+      position: absolute;
   }
 
   img {
