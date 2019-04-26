@@ -111,4 +111,8 @@ selector:pseudo-class {
       position: static;
   }
 
+  img {
+      height: 700px;
+      width: 600px;
+  }
    
