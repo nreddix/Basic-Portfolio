@@ -112,6 +112,28 @@ selector:pseudo-class {
   }
 
   img {
-      height: 700px;
-      width: 600px;
+      height: 100%;
+      width: 100%;
+  }
+
+  .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr
+
+  }
+
+  .giphy {
+      background-image: url("../images/giphyAPP.png");
+      position: relative;
+
+  }
+
+  .giphyButton {
+      border-radius: 8px;
+      color: white;
+      margin: 0 auto;
+      border-radius: 10px;
+      border: none;
+      padding: 10px 20px;
+      background-color: #d6a844;
   }
