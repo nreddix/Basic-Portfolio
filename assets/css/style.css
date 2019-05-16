@@ -137,3 +137,18 @@ selector:pseudo-class {
       padding: 10px 20px;
       background-color: #d6a844;
   }
+
+  .hang {
+      background-image: url("../images/hangman.png");
+      position: relative;
+  }
+
+  .hangButton {
+    border-radius: 8px;
+    color: white;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    background-color: #d6a844;
+  }
